@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jinalpatel/fun</title>
+    <script src="project.js" defer></script>
+    <link rel="stylesheet" href="about.css">
+    <style>
+        #MyCan{
+            background: url(images/background.jpg) center;
+            background-size: cover;
+            margin: auto;
+            display: block;
+        }
+        .Title{
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .btns{
+            width: 720px;
+            margin: 30px auto;
+            /* border: 2px solid black; */
+        }
+        button{
+            margin-right: 15px;
+            padding: 5px 15px;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+            color: gainsboro;
+            border: 2px solid grey;
+        }
+    </style>
+</head>
+
+
+<body>
+   
+    <h1 class="Title">Let's have some fun</h1>
+
+    <canvas width="1000" height="500" style="border: 2px solid black;" id="MyCan">
+
+    </canvas>
+
+    <div class="btns">
+        <button id="kick">Kick (k)</button>
+        <button id="punch">Punch (p)</button>
+        <button id="forward">Forward (f)</button>
+        <button id="backward">Backward (b)</button>
+        <button id="block">Block (Space)</button>
+    </div>
+</body>
+<nav class="navbar">
+    <div class="logo">JinalPatel</div>
+    <div class="togglebtn">
+        <div id="one" class="bar"></div>
+        <div id="two" class="bar"></div>
+        <div id="three" class="bar"></div>
+    </div>
+    <div class="navitems">
+        <ul>
+            <li><a href="index.html"><img class="navicon" src="items/web-house-.png" alt=""> Home</a></li>
+            <li><a href="about.html"><img class="navicon" src="items/user.png" alt=""> About</a></li>
+            <li><a href="fun.html"><img class="navicon" src="items/game.png" alt=""> Fun</a></li>
+        </ul>
+    </div>
+</nav>
+</html> 
